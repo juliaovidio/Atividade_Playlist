@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Diretórios de entrada/saída
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Configuração de módulo/target (ALTERADO)
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    // Outras opções úteis
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Type checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Pra evitar erros de libs externas
+    "skipLibCheck": true
+  }
+}
